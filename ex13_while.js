@@ -3,3 +3,8 @@
 const read = require('readline-sync')
 
 let num = parseInt(read.question("Digite um valor: "))
+
+while (num >= 1){
+    console.log(num)
+    num--
+}

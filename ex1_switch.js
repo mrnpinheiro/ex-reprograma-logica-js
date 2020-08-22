@@ -1,7 +1,13 @@
+/*
+Com o switch, se a condição for correspondida, o programa executa aquela instrução associada.
+Se houverem múltiplos casos, apenas o primeiro! =)
+*/
+
+
 const dia = "sexta"
 const diaFormatada = dia.toLocaleLowerCase()
 
-switch(diaFormatada) {
+switch (diaFormatada) {
     case "segunda":
         console.log("Você tem uma reunião às 10h.")
         break;
